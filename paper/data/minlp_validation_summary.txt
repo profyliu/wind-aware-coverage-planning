@@ -1,0 +1,20 @@
+MINLP Validation: Exact (Held-Karp DP) vs Heuristic
+=======================================================
+
+Power model (Zeng et al. 2019):
+  P0 = 79.86 W,  Pi = 88.63 W
+  Utip = 120.0 m/s,  v0 = 4.03 m/s
+  rho = 1.225 kg/m3,  C_D = 0.6,  A = 0.0151 m2
+
+Instances: 21
+Strips per instance: min=9 max=13 mean=10.3
+
+Energy gap (heuristic − exact) / exact × 100:
+  min  = -0.0000%
+  max  = 3.2101%
+  mean = 0.5716%
+  std  = 0.9320%
+
+Instances where heuristic matches optimal (gap < 0.01%): 13/21
+Instances where exact solver improves on heuristic: 8/21
+  Mean improvement when improved: 1.50%

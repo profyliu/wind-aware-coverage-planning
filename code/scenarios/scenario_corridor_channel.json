@@ -1,0 +1,34 @@
+{
+  "display_name": "Corridor Channel",
+  "description": "Two rectangular chambers (~180m x 230m each) connected by a narrow 40m-wide passage, representative of a survey region split by a natural obstacle (e.g., a canal, road, or forested strip) with a single crossing point",
+  "polygon_family": "corridor",
+  "polygon_params": {"n_chambers": 2, "corridor_width": 40.0, "seed": 0},
+  "polygon_vertices": [
+    [0.0, 0.0],
+    [0.0, 230.001],
+    [179.104, 230.001],
+    [179.104, 136.872],
+    [264.854, 136.872],
+    [264.854, 230.001],
+    [443.959, 230.001],
+    [443.959, 0.0],
+    [264.854, 0.0],
+    [264.854, 93.129],
+    [179.104, 93.129],
+    [179.104, 0.0]
+  ],
+  "wind": {
+    "direction_deg": 30.0,
+    "speed_mps": 2.0,
+    "description": "Wind at 30° (NNE, 2 m/s, wind ratio 0.167); deliberately misaligned with the axis-aligned corridor chambers, forcing the proposed method to use 30°-tilted strips that must navigate the narrow passage diagonally"
+  },
+  "uav": {
+    "airspeed_mps": 12.0,
+    "description": "Nominal cruise speed 12 m/s"
+  },
+  "cell": {
+    "width_m": 20.0,
+    "height_m": 20.0,
+    "description": "20m x 20m sensing cell; corridor width (40m) accommodates exactly 2 cells across"
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Test Survey Field</name>
+  <Placemark>
+    <name>scenario_01_field</name>
+    <Polygon>
+      <outerBoundaryIs><LinearRing>
+        <coordinates>149.11690000,-35.28040000,0 149.11822050,-35.28057966,0 149.11954101,-35.28031017,0 149.12086151,-35.28048983,0 149.12218201,-35.28040000,0 149.12240210,-35.27905253,0 149.12218201,-35.27770507,0 149.12130168,-35.27680676,0 149.11965105,-35.27662709,0 149.11800042,-35.27680676,0 149.11712008,-35.27770507,0 149.11690000,-35.27905253,0 149.11690000,-35.28040000,0</coordinates>
+      </LinearRing></outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,49 @@
+Scenario geometry and overshoot bounds (cell size w=h=20m)
+==============================================================
+
+Concave Farmland
+  Area       =    188,900 m²
+  Perimeter  =      1,650 m
+  r_iso      =      228.9 m
+  Overshoot bound = 8.74%
+
+Convex Meadow
+  Area       =     84,606 m²
+  Perimeter  =      1,069 m
+  r_iso      =      158.3 m
+  Overshoot bound = 12.64%
+
+High-Concave Terrain
+  Area       =     39,890 m²
+  Perimeter  =      1,352 m
+  r_iso      =       59.0 m
+  Overshoot bound = 33.89%
+
+Corridor Channel
+  Area       =     86,139 m²
+  Perimeter  =      1,720 m
+  r_iso      =      100.1 m
+  Overshoot bound = 19.97%
+
+Dual-objective orientation summary (phi_T* vs phi_E*)
+--------------------------------------------------------------
+
+Concave Farmland  (phi_wind=45°)
+  rho=0.1:  phi_T*= 82° T*=869.4s  phi_E*= 82° E*=76.92kJ  diverge=0°
+  rho=0.2:  phi_T*= 99° T*=887.7s  phi_E*= 82° E*=77.30kJ  diverge=17°
+  rho=0.3:  phi_T*= 99° T*=917.0s  phi_E*= 82° E*=78.02kJ  diverge=17°
+
+Convex Meadow  (phi_wind=30°)
+  rho=0.1:  phi_T*=120° T*=405.3s  phi_E*=119° E*=36.12kJ  diverge=1°
+  rho=0.2:  phi_T*=119° T*=410.6s  phi_E*=119° E*=36.17kJ  diverge=0°
+  rho=0.3:  phi_T*=120° T*=417.8s  phi_E*=119° E*=36.34kJ  diverge=1°
+
+High-Concave Terrain  (phi_wind=90°)
+  rho=0.1:  phi_T*= 34° T*=245.4s  phi_E*= 34° E*=21.82kJ  diverge=0°
+  rho=0.2:  phi_T*= 34° T*=247.7s  phi_E*= 34° E*=21.81kJ  diverge=0°
+  rho=0.3:  phi_T*=159° T*=253.3s  phi_E*= 34° E*=21.87kJ  diverge=125°
+
+Corridor Channel  (phi_wind=30°)
+  rho=0.1:  phi_T*= 90° T*=425.8s  phi_E*= 90° E*=37.77kJ  diverge=0°
+  rho=0.2:  phi_T*= 90° T*=432.0s  phi_E*= 90° E*=37.87kJ  diverge=0°
+  rho=0.3:  phi_T*= 90° T*=444.7s  phi_E*= 90° E*=38.11kJ  diverge=0°

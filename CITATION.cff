@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using this software."
+title: "Wind-aware coverage path planning"
+type: software
+version: 1.0.0
+repository-code: "https://github.com/profyliu/wind-aware-coverage-planning"
+authors:
+  - family-names: Liu
+    given-names: Yanchao
+  - family-names: Wu
+    given-names: Tao
+preferred-citation:
+  type: article
+  title: "Energy-Optimal Coverage Path Planning for Multirotors under Wind: Joint Grid Orientation, Strip Routing, and Speed Optimization"
+  authors:
+    - family-names: Liu
+      given-names: Yanchao
+    - family-names: Wu
+      given-names: Tao
+  journal: "Drone Systems and Applications"
+  notes: "Accepted for publication."

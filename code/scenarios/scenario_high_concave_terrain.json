@@ -1,0 +1,31 @@
+{
+  "display_name": "High-Concave Terrain",
+  "description": "5-armed irregular star polygon (~350m x 358m bounding box, 500m diagonal). Arm lengths range from 190m to 220m with 80m-deep concave bays between arms. Represents a survey area with multiple deep concave indentations (e.g., a terrain patch with spiky ridges, a lake with peninsulas, or a multi-lobed forested area).",
+  "polygon_family": "high_concave",
+  "polygon_vertices": [
+    [168.30, 357.51],
+    [125.63, 216.59],
+    [  0.00, 212.54],
+    [ 99.26, 135.42],
+    [ 53.62,   0.00],
+    [168.30,  85.25],
+    [269.66,  18.35],
+    [237.35, 135.42],
+    [349.56, 216.74],
+    [210.98, 216.59]
+  ],
+  "wind": {
+    "direction_deg": 90.0,
+    "speed_mps": 3.0,
+    "description": "Wind direction 90° (mathematical convention: 0°=East CCW), pointing northward; equivalent to a southerly wind at 3 m/s (wind ratio 0.25)"
+  },
+  "uav": {
+    "airspeed_mps": 12.0,
+    "description": "Nominal cruise speed 12 m/s"
+  },
+  "cell": {
+    "width_m": 20.0,
+    "height_m": 20.0,
+    "description": "20m x 20m sensing cell"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display_name": "Convex Meadow",
+  "description": "Convex 10-vertex polygon (~350m diagonal), representative of an open flat agricultural field with no obstructions",
+  "polygon_family": "convex",
+  "polygon_params": {"n_vertices": 10, "seed": 1},
+  "polygon_vertices": [
+    [15.652, -180.393],
+    [-100.565, -141.369],
+    [-178.63, 5.125],
+    [-167.004, 54.854],
+    [-5.448, 171.004],
+    [119.0, 133.897],
+    [145.979, 97.685],
+    [177.066, 31.875],
+    [98.493, -140.266],
+    [43.511, -175.288]
+  ],
+  "wind": {
+    "direction_deg": 30.0,
+    "speed_mps": 2.5,
+    "description": "NNE wind at 2.5 m/s (wind ratio 0.208)"
+  },
+  "uav": {
+    "airspeed_mps": 12.0,
+    "description": "Nominal cruise speed 12 m/s"
+  },
+  "cell": {
+    "width_m": 20.0,
+    "height_m": 20.0,
+    "description": "20m x 20m sensing cell"
+  }
+}

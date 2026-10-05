@@ -1,0 +1,32 @@
+{
+  "display_name": "Concave Farmland",
+  "description": "Canonical mildly-concave 12-vertex test polygon (~500m x 400m)",
+  "polygon_vertices": [
+    [0.0,   0.0],
+    [120.0, -20.0],
+    [240.0, 10.0],
+    [360.0, -10.0],
+    [480.0, 0.0],
+    [500.0, 150.0],
+    [480.0, 300.0],
+    [400.0, 400.0],
+    [250.0, 420.0],
+    [100.0, 400.0],
+    [20.0,  300.0],
+    [0.0,   150.0]
+  ],
+  "wind": {
+    "direction_deg": 45.0,
+    "speed_mps": 3.0,
+    "description": "NE wind at 3 m/s"
+  },
+  "uav": {
+    "airspeed_mps": 12.0,
+    "description": "Nominal cruise speed 12 m/s (wind ratio 0.25)"
+  },
+  "cell": {
+    "width_m": 20.0,
+    "height_m": 20.0,
+    "description": "20m x 20m sensing cell"
+  }
+}
